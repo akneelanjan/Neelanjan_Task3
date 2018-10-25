@@ -18,8 +18,7 @@ def rec():
         client1.settimeout(1.0)
         rdata=client1.recv(2012)
         print rdata
-        sdata=rdata.split(',')
-        sdata.sort()
+        sdata=rdata.split(',').sort()
         for i in sdata:
             adata=adata+i+','
         adata=adata[:-1]
