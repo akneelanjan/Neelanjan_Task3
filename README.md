@@ -6,6 +6,6 @@ Server in python and Client in c++
 * c++
 
 ## Features 
-* Can handle multiple clients.
+* It can handle multiple clients.
 * Each client sends any data to server ,the server recieves the data and and sorts it and sends back the sorted data to the respective client.
 * Multiple clients connect without using running multiple threads.
